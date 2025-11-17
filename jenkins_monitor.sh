@@ -1,5 +1,5 @@
 #! /bin/bash
-LOG_FILE="$HOME/jenkins_monitor.log"
+LOG_FILE="/var/log/jenkins_monitor.log"
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
 STATUS=$(sudo systemctl is-active jenkins)
 
